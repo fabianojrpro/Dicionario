@@ -17,7 +17,7 @@ btnTxt.addEventListener('click', () => {
             resultado.innerHTML =
                 `<h3 id="container-palavra">${palavra}</h3>
             <p id="container-significado"><span>1º </span>${data[0].meanings[0]}</p>
-            <p id="container-significado"><span>3º </span>${data[0].meanings[1]}</p>`;
+            <p id="container-significado"><span>2º </span>${data[0].meanings[1]}</p>`;
         }).catch(() => {
             resultado.innerHTML = `<p id="container-significado">Está palavra não foi encontrada. Verifique a ortográfia.</p>`
         })
